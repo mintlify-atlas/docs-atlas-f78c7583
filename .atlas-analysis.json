@@ -1,0 +1,93 @@
+{
+  "projectType": "saas",
+  "projectName": "Simpsonize Me!",
+  "projectDescription": "AI-powered platform that transforms photos into authentic Simpsons-style cartoon portraits in minutes.",
+  "theme": "almond",
+  "primaryColor": "#FFD90F",
+  "lightColor": "#FEF6E0",
+  "darkColor": "#F5A623",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/photo-upload",
+              "features/ai-transformation",
+              "features/portrait-variations",
+              "features/high-resolution"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "use-cases/gifts",
+              "use-cases/social-media",
+              "use-cases/family-keepsakes",
+              "use-cases/personal-branding"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/photo-tips",
+              "guides/best-practices",
+              "guides/printing",
+              "guides/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Help Center",
+            "pages": [
+              "support/faq",
+              "support/pricing",
+              "support/delivery",
+              "support/refunds"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "resources/file-formats",
+              "resources/quality-guide",
+              "resources/examples"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered photo transformation to Simpsons style",
+    "5 unique portrait variations per upload",
+    "High-resolution digital downloads",
+    "Lightning-fast processing in minutes",
+    "Support for JPG, PNG, WebP, HEIC formats up to 15MB",
+    "Secure Stripe payment integration",
+    "Works with individuals, groups, families, and pets",
+    "100% satisfaction guarantee"
+  ],
+  "publicApiSurface": [
+    "Photo upload endpoint (JPG, PNG, WebP, HEIC up to 15MB)",
+    "AI transformation processing",
+    "Download delivery via email",
+    "Stripe payment checkout",
+    "5 unique portrait variations output",
+    "High-resolution image files"
+  ]
+}
